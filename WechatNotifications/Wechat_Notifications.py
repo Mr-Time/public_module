@@ -3,10 +3,10 @@ import json
 
 class Wechat_Notifications:
 
-    def __init__(self, text):
+    def __init__(self, text, key):
         self.title = text
         self.message = ''
-        self.key = '{YourKey}'
+        self.key = key
         pass
 
     def push(self, text):
